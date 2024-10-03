@@ -15,11 +15,11 @@ body {
 
 #startButton {
     margin-top: 10rem;
-    padding: 15px 30px;
-    font-size: 20px;
+    padding: 5rem;
+    font-size: 3rem;
     cursor: pointer;
     background-color: white;
-    border: 2px solid black;
+    border: .5rem solid black;
 }
 
 #slideshow {
@@ -37,7 +37,25 @@ body {
 
 .quotes {
     font-family: 'Libre Baskerville', serif;
-    font-size: 20px;
+    font-size: 1.5rem;
     color: black;
     margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+    #startButton {
+        font-size: 3rem;
+    }
+
+    #slideshow {
+        width: 80%;
+        height: auto;
+        padding: 20px;
+        padding-bottom: 80px;
+    }
+
+    .quotes {
+        font-size: 1.5rem;
+    }
+    
 }
