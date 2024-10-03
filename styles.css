@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
+a {
+    text-decoration: none;
+    color: black;
+}
 
 body {
     margin: 0;
@@ -15,11 +19,11 @@ body {
 
 #startButton {
     margin-top: 10rem;
-    padding: 5rem;
-    font-size: 3rem;
+    padding: 2rem;
+    font-size: 1.5rem;
     cursor: pointer;
     background-color: white;
-    border: .5rem solid black;
+    border: .2rem solid black;
 }
 
 #slideshow {
